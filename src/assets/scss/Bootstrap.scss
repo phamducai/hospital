@@ -1,0 +1,21 @@
+$theme-colors: (
+  "primary": #025464,
+  "success": #198754,
+  "danger": #dc3545,
+  "light": #f8f9fa,
+  "secondary": #B7B7B7,
+  "dark": #3d3d3d,
+  "info": #068DA9,
+  'warning': #E8AA42,
+);
+
+$container-max-widths: (
+  sm: 100%,
+  md: 100%,
+  lg: 960px,
+  xl: 1140px,
+  xxl: 1320px
+);
+
+
+@import "../node_modules/bootstrap/scss/bootstrap";

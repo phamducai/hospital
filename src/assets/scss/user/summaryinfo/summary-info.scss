@@ -1,0 +1,53 @@
+
+.col-2 {
+  margin-left: 300px;
+}
+
+.bg-btn {
+  background-color: rgb(6, 141, 169);
+  border-radius: 5px;
+}
+.title-table-billing-info-list {
+  background-color: rgb(6, 141, 169);
+  color: white;
+  text-align: center;
+  th {
+    border-width: 2px;
+    border-color: white;
+  }
+}
+
+.tbody-billing-info-list {
+  text-align: center;
+  td {
+    border-width: 2px;
+    border-color: white;
+  }
+}
+
+.title-table-nurse-summary-list {
+  background-color: rgb(6, 141, 169);
+  color: white;
+  th {
+    border-width: 2px;
+    border-color: white;
+  }
+}
+
+.tbody-nurse-summary-list {
+  td {
+    border-width: 2px;
+    border-color: white;
+  }
+}
+
+.check-box-table {
+  width: 18px;
+  height: 18px;
+}
+
+.btn-calender {
+  margin-left: -135px;
+  margin-bottom: 5px;
+  margin-top: -6px;
+}

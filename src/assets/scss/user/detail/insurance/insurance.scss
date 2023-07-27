@@ -1,0 +1,157 @@
+.w-50-table {
+  width: 50% !important;
+}
+
+@media only screen and (max-width: 576px) {
+  .w-50-table {
+    width: 100% !important;
+  }
+}
+
+@media only screen and (min-width: 576px) and (max-width: 960px) {
+  .w-50-table {
+    width: 80% !important;
+  }
+}
+
+.col-9-yen {
+  margin-left: -7rem !important;
+  width: 50% !important;
+}
+
+@media only screen and (max-width: 576px) {
+  .w-50-table {
+    width: 100% !important;
+  }
+}
+
+@media only screen and (min-width: 576px) and (max-width: 960px) {
+  .w-50-table {
+    width: 80% !important;
+  }
+}
+
+.min-width-25 {
+  min-width: 8%;
+}
+.left {
+  text-align: left !important;
+}
+.m-left {
+  margin-left: -7rem;
+}
+.align-table-1st-row {
+  width: 33rem !important;
+  margin-left: 0 !important;
+}
+.table-text-left {
+  text-align: left;
+}
+.table-text-center {
+  text-align: center;
+}
+.table-text-right {
+  text-align: right;
+}
+.span-bg-50 {
+  margin: 0 1% 0 1%;
+  font-size: 150%;
+}
+.btn-next-select {
+  margin: 0 1% 0 1%;
+}
+.span-next-calender {
+  margin: 0 1% 0 1%;
+}
+.none-bg-light-yellow {
+  background-color: rgb(255 255 255) !important;
+}
+.sm-col-18 {
+  width: 18rem;
+}
+
+.row-in-col {
+  border: none;
+  padding-top: 8px;
+}
+.row-in-col2 {
+  border: none;
+}
+.m-top {
+  margin-top: 14px;
+}
+.max-w-80 {
+  max-width: 80px !important;
+}
+.w-20 {
+  width: 20% !important;
+}
+.max-w-167 {
+  max-width: 167px !important;
+}
+.td-w-224 {
+  width: 224px !important;
+}
+.m-all {
+  margin: 18px 0px 18px 42% !important;
+  width: 180px !important;
+}
+.td-w-150 {
+  width: 180px !important;
+}
+.h-3 {
+  height: 3rem !important;
+}
+.p-l4 {
+  padding-left: 4rem !important;
+}
+.form-check-l1 {
+  min-height: 1.5rem;
+  margin-bottom: 0.125rem;
+}
+.form-check-inline-r1 {
+  display: inline-block;
+  margin-right: 12px;
+  margin-left: 2px;
+}
+.p-6 {
+  padding-left: 6px;
+}
+.wh-100 {
+  width: 100%;
+  height: 16rem;
+}
+.w-12 {
+  width: 12rem;
+  vertical-align: middle !important;
+}
+.bg-blue {
+  background-color: #4169e1;
+  color: white;
+}
+.bg-FE {
+  background-color: #fee;
+}
+.bg-white1 {
+  background-color: white !important;
+  color: black !important;
+  width: 5rem !important;
+  margin-left: 32rem !important;
+  border-radius: 0 !important;
+}
+.bg-white2 {
+  background-color: white !important;
+  color: black !important;
+  width: 5rem !important;
+  margin-left: 533px !important;
+  border-radius: 0 !important;
+}
+.bg-white {
+  background-color: white !important;
+  border-radius: 0 !important;
+  color: black !important;
+}
+.mid-none {
+  border-left: none;
+  vertical-align: middle;
+}

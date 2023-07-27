@@ -1,0 +1,188 @@
+#nursing-info {
+    .min-w-btn-150 {
+        min-width: 150px;
+    }
+
+    .bg-yellow {
+        background-color: #fff3cd !important;
+    }
+
+    .bg-white {
+        background-color: white;
+    }
+
+    .td-w-100 {
+        width: 110px;
+    }
+
+    .td-w-10 {
+        width: 10%;
+    }
+
+    .text-algin-left {
+        text-align: left !important;
+    }
+
+    @media only screen and (min-width: 960px) {
+        .mt-3-div {
+            margin-top: 0;
+        }
+    }
+
+    .input-w-150 {
+        width: 150px;
+    }
+
+    textarea {
+        max-width: 100%;
+    }
+
+    input {
+        max-width: 100%;
+    }
+
+    .ms-10 {
+        margin-left: 10px;
+    }
+
+    .w-68 {
+        max-width: 100%;
+    }
+
+    @media only screen and (min-width: 960px) {
+        .w-68 {
+            width: 68%;
+        }
+
+        .w-90-div {
+            width: 93% !important;
+        }
+
+        .w-150-name {
+            width: 100% !important;
+        }
+
+        .w-120-select {
+            width: 100% !important;
+        }
+
+        .w-140-contact {
+            width: 100% !important;
+        }
+
+        .input-80 {
+            width: 70% !important;
+        }
+
+        .area-90 {
+            width: 75% !important;
+        }
+
+        .w-col-table {
+            width: 235px;
+        }
+    }
+
+    @media only screen and (max-width: 960px) {
+
+        .w-100-td {
+            width: 100px !important;
+        }
+
+        .w-150-name {
+            width: 150px !important;
+        }
+
+        .w-50-old {
+            width: 50px !important;
+        }
+
+        .w-140-contact {
+            width: 140px !important;
+        }
+
+        .w-90-div {
+            width: 82% !important;
+        }
+
+        .input-80 {
+            width: 80% !important;
+        }
+
+        .area-90 {
+            width: 90% !important;
+        }
+
+    }
+
+    @media only screen and (max-width: 576px) {
+
+        .label-table {
+            width: auto !important;
+        }
+
+        .label-td {
+            width: 25% !important;
+        }
+
+        .td-w-sm-10 {
+            width: 20% !important;
+        }
+
+        .td-w-sm-21 {
+            width: 21% !important;
+        }
+
+        .input-80 {
+            width: 100% !important;
+        }
+
+        .area-90 {
+            width: 100% !important;
+        }
+
+        .w-col-table {
+            width: 110px;
+        }
+
+    }
+
+    @media only screen and (min-width: 576px) and (max-width: 960px) {
+        .w-col-table {
+            width: 350px;
+        }
+    }
+
+    .w-20-div {
+        width: 5%;
+    }
+
+    .w-30-td {
+        width: 30px;
+    }
+
+    .w-100-input {
+        width: 100px;
+    }
+
+    .w-75-div {
+        width: 94%;
+    }
+
+    .w-auto-lable {
+        width: 60px !important;
+    }
+
+    .min-w-input-validate {
+        text-align: center;
+        min-width: 68px;
+    }
+
+    .td-w-checkbox {
+        width: 9%;
+    }
+
+    .algin-td-header {
+        vertical-align: middle;
+    }
+}

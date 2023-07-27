@@ -1,0 +1,125 @@
+#schedule {
+  .custom-tabs {
+    width: 40%;
+
+  }
+
+  .custom-border {
+    border-bottom: 1px solid rgb(2 84 100);
+    display: flex !important;
+    justify-content: start;
+  }
+
+  .acitve {
+    color: red;
+  }
+
+  .custom-column {
+    width: 49px !important;
+    margin: auto;
+    padding: 0px;
+  }
+
+  .table> :not(caption)>*>* {
+    padding: 0;
+  }
+
+  .bg-text-cell {
+    background-color: #b0e0e6 !important;
+    color: #000;
+  }
+
+  .bg-custom-cell {
+    background-color: #ffffa0 !important;
+  }
+
+  .custom-button {
+    height: 50px;
+  }
+
+  .custom-column-1 {
+    min-width: 150px;
+    background-color: #fff3cd;
+  }
+
+  .custom-table-schedule {
+    width: 52.5%;
+  }
+
+  .custom-cell {
+    // width: 49px;
+  }
+
+  .bg-th-schedule {
+    background-color: #025464;
+    color: white;
+    text-align: center;
+  }
+
+  .bg-color-td-schedule {
+    background-color: #fff3cd;
+    text-align: center;
+  }
+
+  .bg-color-td-schedule-1 {
+    background-color: #ffffa0;
+    text-align: center;
+
+  }
+
+  .custom-width-table {
+    width: 52.5%;
+  }
+
+  .text-custom-red {
+    color: red !important;
+  }
+
+  .text-custom-blue {
+    color: #CCCCFF;
+  }
+  .label-dialog-custom {
+    width: 135px;
+    border-radius: 5px;
+    margin-left: 10px;
+}
+
+  @media only screen and (max-width: 1200px) {
+    .custom-width-table {
+      width: 100%;
+    }
+
+    .custom-table-schedule {
+      width: 100%;
+    }
+  }
+
+  .min-w-td {
+    min-width: 49px;
+  }
+
+  @media only screen and (max-width: 576px) {
+    .w-title {
+      min-width: 240px;
+    }
+    .custom-cell {
+      width: 40px;
+      min-width: 40px;
+    }
+
+    .w-75-button {
+      width: 100% !important;
+    }
+  }
+
+  @media only screen and (min-width: 576px) and (max-width: 960px) {
+    .w-md-100 {
+      width: 100%;
+    }
+    .custom-cell {
+      width: 40px;
+      min-width: 40px;
+    }
+  }
+
+}

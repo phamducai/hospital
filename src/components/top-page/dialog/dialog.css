@@ -1,0 +1,37 @@
+.custom-input-group-text {
+  background-color: rgb(0 0 0 / 0%);
+  border: 1px solid rgb(0 0 0 / 0%);;
+
+}
+
+
+.confirm-btn{
+  background-color: #FDEADA;
+  border-radius: 10px;
+  border: #385D8A;
+  border-width: 5px;
+
+}
+
+.dialog-footer{
+    display: flex;
+    flex-shrink: 0;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    padding: calc(var(--bs-modal-padding) - var(--bs-modal-footer-gap) * 0.5);
+    background-color: var(--bs-modal-footer-bg);
+
+    border-bottom-right-radius: var(--bs-modal-inner-border-radius);
+    border-bottom-left-radius: var(--bs-modal-inner-border-radius);
+}
+
+.message{
+  display: flex;
+  flex-shrink: 0;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  color: #E46C0A;
+}
+

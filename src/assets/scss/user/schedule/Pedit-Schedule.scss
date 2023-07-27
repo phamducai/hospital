@@ -1,0 +1,87 @@
+
+#pedit-schedue{
+  .custom-text{
+    width:170px ;
+  }
+  .custom-button{
+    height: 24px;
+    width: 24px;
+    color: #025464;
+    border: #025464 solid 1px;
+    margin-left: 4px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .custom-button-footer{
+    height: 25px;
+    width: 75px;
+    font-size: 14px;
+    border-radius: 5px;
+   }
+
+   .custom-calendar {
+    border-radius: 15px;
+  }
+  .text-calendar {
+    margin-left: 5px;
+    margin-right: 5px;
+  }
+
+  .bg-custom-text-header {
+    background-color: #038eaa;
+    color: white;
+
+  }
+
+.custom-btn-submit{
+  width:fit-content;
+}
+ .selected-day-final{
+  background-color: orange !important;
+  color: white !important;
+ }
+ .custom-table-schedule{
+  width: 80%;
+  margin-left: 2%;
+
+ }
+ .bg-th-schedule{
+  background-color: #025464;
+  color: white;
+  text-align: center;
+}
+.custom-border-btn{
+  border: 2px solid #000;
+  border-radius: 5px;
+
+}
+.table-container {
+  min-width: 1063px !important;
+  width: 1063px; /* Đặt width là 800px */
+  overflow-x: scroll; /* Thiết lập thanh cuộn ngang khi nội dung vượt quá kích thước */
+}
+
+  @media only screen and (max-width: 768px) {
+    .custom-button-see{
+      width: 50%;
+     }
+    .custom-text{
+      width:100px ;
+    }
+    .custom-btn-submit{
+      width:80%;
+    }
+    .custom-table-schedule{
+      width: 90%;
+
+
+     }
+
+  }
+  @media only screen and (max-width: 770px) {
+    .bg-custom-text-header {
+     margin-left: 2%;
+    }
+}
+}

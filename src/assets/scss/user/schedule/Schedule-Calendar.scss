@@ -1,0 +1,179 @@
+#schedule-calendar{
+
+
+
+a{
+  text-decoration: none !important;
+  color:inherit !important
+
+}
+.demo-app {
+  display: flex;
+  min-height: 100%;
+  font-family: Arial, Helvetica Neue, Helvetica, sans-serif;
+  font-size: 14px;
+}
+
+.demo-app-sidebar {
+  width: 300px;
+  line-height: 1.5;
+  background: #eaf9ff;
+  border-right: 1px solid #d3e2e8;
+}
+
+.demo-app-sidebar-section {
+  padding: 2em;
+}
+
+.demo-app-main {
+  flex-grow: 1;
+  padding: 0;
+}
+
+.fc { /* the calendar root */
+  max-width: 1400px;
+  margin: 0 auto;
+}
+.fc-day-sun {
+  color: rgb(217, 23, 23);
+
+}
+
+/* Chọn cột thứ bảy (Saturday) */
+.fc-day-sat {
+  color: #4169E1;
+}
+.custom-day-cell {
+  display: flex;
+  align-items: center;
+  justify-content:space-between;
+  height: 100%;
+}
+
+.fc-toolbar-chunk{
+  display: flex;
+  align-items: center;
+}
+.custom-day-cell-date {
+  font-size: 16px;
+}
+.fc .fc-daygrid-day-top {
+  display: block;
+}
+.custom-plus{
+  cursor: pointer;
+}
+.custom-input-check{
+  inline-size: 24px;
+  block-size: 24px;
+}
+.custom-select{
+  width: 50%;
+ margin-left: 22px !important;
+
+}
+.fc-header-toolbar {
+  margin-bottom:7.5em
+}
+.header-toolbar-custom{
+  max-width: 1400px;
+  margin: 0 auto;
+  display: flex;justify-content: space-between;
+  align-items: center;
+
+}
+
+.footer-page{
+  max-width: 1400px;
+  margin: 0 auto;
+
+}
+.text-cell-calendar{
+  font-size: 20px !important;
+}
+.fc-theme-standard td, .fc-theme-standard th {
+  border: 1px solid #080808;
+}
+
+.head-table{
+  background-color: #025464;
+  color: white;
+}
+.row-table{
+  background-color: #fff3cd;
+  color: black;
+}
+thead {
+
+  .fc-day-sun{
+    background-color: hwb(0 6% 12%);
+    color: white !important;
+   }
+  .fc-day-mon{
+    background-color: gray;
+    color: white !important;
+   }
+ .fc-day-tue{
+  background-color: gray;
+  color: white !important;
+ }
+
+ .fc-day-wed{
+  background-color: gray;
+  color: white !important;
+ }
+
+ .fc-day-thu{
+  background-color: gray;
+  color: white !important;
+ }
+
+ .fc-day-fri{
+  background-color: gray;
+  color: white !important;
+ }
+ .fc-day-sat{
+  background-color: #4169E1;
+  color: white !important;
+ }
+}
+.date-picker {
+  width: 55%;
+  box-sizing: border-box;
+  height: 26px;
+  /* Các kiểu CSS khác cho DatePicker */
+}
+
+
+.custom-button-submit{
+  width: 8%;
+}
+//reposive
+@media only screen and (max-width: 768px) {
+
+  .header-toolbar-custom{
+    max-width: 1400px;
+    margin: 0 auto;
+    display: block;
+    text-align: center;
+  }
+  // .date-picker {
+  //   width: 55%;
+  //   box-sizing: border-box;
+  //   height: 26px;
+  // }
+  .custom-button-submit{
+    width: 100%;
+  }
+}
+@media only screen and (max-width: 1200) {
+
+
+
+  .custom-button-submit{
+    width: 15%;
+  }
+}
+
+}
+
